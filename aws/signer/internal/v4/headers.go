@@ -9,6 +9,7 @@ var IgnoredHeaders = Rules{
 			"X-Amzn-Trace-Id":       struct{}{},
 			"Amz-Sdk-Invocation-Id": struct{}{},
 			"Amz-Sdk-Request":       struct{}{},
+			"Accept-Encoding":       struct{}{},
 		},
 	},
 }
